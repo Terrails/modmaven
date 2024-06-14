@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>terrails.colorfulhearts</groupId>
+  <artifactId>colorfulhearts-neoforge</artifactId>
+  <version>5.2.11</version>
+  <name>Colorful Hearts</name>
+  <description>A client side mod that replaces multiple vanilla heart rows with a single row using colored hearts</description>
+  <url>https://github.com/Terrails/colorful-hearts</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://spdx.org/licenses/MIT.html</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>terrails</id>
+      <name>Terrails</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/Terrails/colorful-hearts.git</connection>
+    <developerConnection>scm:git:git@github.com:Terrails/colorful-hearts.git</developerConnection>
+    <url>https://github.com/Terrails/colorful-hearts</url>
+  </scm>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/Terrails/colorful-hearts/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>maven.modrinth</groupId>
+      <artifactId>appleskin</artifactId>
+      <version>2.5.1+mc1.20.2-neoforge</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>me.shedaniel.cloth</groupId>
+      <artifactId>cloth-config-neoforge</artifactId>
+      <version>12.0.119</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
